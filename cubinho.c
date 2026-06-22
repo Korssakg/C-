@@ -55,7 +55,6 @@ void gira_face_90_graus(int f, int direcao) {
         }
     }
 }
-
 void rotacao(int face, int direcao) {
     // 1. Gira a face 3x3
     gira_face_90_graus(face, direcao);
@@ -153,5 +152,6 @@ void rotacao(int face, int direcao) {
             for(int i=0; i<3; i++) cubo[FRENTE][i][2] = temp[i];
         }
     }
+}
 }
 //Tem que passar para variavel temporária para não perder o valor anterior!!!!
